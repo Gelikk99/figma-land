@@ -9,8 +9,8 @@
 <body>
 <header class="page-header">
     <nav class="page-header__main-nav main-nav">
-        <a href="#" class="main-nav__logo logo">
-            <img src="images/logo.svg" alt="Logo" class="logo__img">
+        <a href="#" class="logo">
+            <img src="assets/images/logo.png" alt="go to main" class="logo__img">
         </a>
         <ul class="main-nav__list">
             <li class="main-nav__item">
@@ -30,16 +30,17 @@
     </nav>
 </header>
 <main class="main">
-    <section class="product-description-block">
-        <h1 class="product-description-block__title">Work at the speed of thought</h1>
-        <p class="product-description-block__sub-title">
+    <section class="description">
+        <h1 class = "visually-hidden">Multifunctional calendar "Slate"</h1>
+        <p class="description__title">Work at the speed of thought</p>
+        <p class="description__sub-title">
             Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their
             schedule.
         </p>
-        <button href="#" class="product-description-block__btn btn-try">Try For Free</button>
-        <button href="#" class="product-description-block__btn">Learn More</button>
-        <div class="product-description-block__interface-image">
-            <img src="images/interface-image.png" class="interface-image" alt="Interface image">
+        <button class="description__btn btn-primary">Try For Free</button>
+        <button class="description__btn">Learn More</button>
+        <div class="description__interface-image">
+            <img src="assets/images/interface-image.png" class="interface-image" alt="Interface image">
             <div class="interface-image-shadow"></div>
         </div>
     </section>
@@ -50,11 +51,13 @@
             freelancers who want a simple way to plan their schedule.
         </p>
         <div class="features-block__content">
-                <img src="images/content-image.png" alt="Content image" class="features-block__content-image">
+                <img src="assets/images/features-image.png" alt="Content image" class="features-block__content-image">
                 <ul class="features-block__content-text">
                     <li class="content-text__item">
                         <div class="content-text__item-title">
-                            <img src="images/icon1.svg" alt="Icon 1" class="item-title__icon">
+                            <svg class="item-title__icon" width="26" height="24" viewBox="0 0 26 24">
+                                <use href="sprite.svg#spoons"></use>
+                            </svg>
                             <h3 class="item-title__text">A single source of truth</h3>
                         </div>
                         <p class="content-text__item-text">
@@ -65,7 +68,9 @@
                     </li>
                     <li class="content-text__item">
                         <div class="content-text__item-title">
-                            <img src="images/icon2.svg" alt="Icon 2" class="item-title__icon">
+                            <svg class="item-title__icon" width="30" height="30" viewBox="0 0 30 30">
+                                <use href="sprite.svg#alien"></use>
+                            </svg>
                             <h3 class="item-title__text">Intuitive interface</h3>
                         </div>
                         <p class="content-text__item-text">
@@ -76,7 +81,9 @@
                     </li>
                     <li class="content-text__item">
                         <div class="content-text__item-title">
-                            <img src="images/icon3.svg" alt="Icon 3" class="item-title__icon">
+                            <svg class="item-title__icon" width="42" height="19" viewBox="0 0 42 19">
+                                <use href="sprite.svg#infinity"></use>
+                            </svg>
                             <h3 class="item-title__text">Or with rules</h3>
                         </div>
                         <p class="content-text__item-text">

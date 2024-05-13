@@ -80,7 +80,6 @@ body {
 .description {
     padding-top: 50px;
     margin-bottom: 100px;
-    text-align: center;
 }
 
 .visually-hidden {
@@ -114,6 +113,11 @@ body {
     margin: 0 auto 95px auto;
 }
 
+.description__buttons {
+    display: flex;
+    justify-content: center;
+}
+
 .description__btn {
     box-sizing: border-box;
     background-color: transparent;
@@ -139,6 +143,7 @@ body {
 
 .description__image {
     position: relative;
+    text-align: center;
 }
 
 .description__image::before {

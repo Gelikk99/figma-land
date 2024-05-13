@@ -20,14 +20,18 @@ body {
     font-family: "Graphik", sans-serif;
 }
 
+.page-header {
+    margin-bottom: 35px;
+}
+
 .main-nav {
     max-width: 1097px;
-    padding: 20px 30px;
+    padding: 20px 30px 20px 39px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    align-items: center
+    align-items: center;
 }
 
 .logo {
@@ -48,28 +52,34 @@ body {
 
 .main-nav__item {
     list-style: none;
-    padding: 10px;
 }
 
 .main-nav__link {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
+    padding: 10px;
 }
 
 .main-nav__button {
     box-sizing: border-box;
     background-color: transparent;
-    border: 1px solid rgb(255, 255, 255);
+    border: 1px solid #FFFFFFFF;
     box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
-    width: 139px;
+    min-width: 139px;
     height: 52px;
     font-size: 17px;
+    cursor: pointer;
+    line-height: 147%;
+    letter-spacing: 0.01em;
+    font-weight: 500;
+    padding: 14px 40px;
 }
 
 .description {
-    padding: 95px 0 76px 0;
+    padding-top: 50px;
+    margin-bottom: 100px;
     text-align: center;
 }
 
@@ -143,7 +153,8 @@ body {
 }
 
 .features {
-    padding: 76px 0 222px 0;
+    padding: 62px 0;
+    margin-bottom: 100px;
 }
 
 .features__title {

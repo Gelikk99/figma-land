@@ -6,6 +6,7 @@
 @font-face {
     font-family: "Graphik";
     src: url("../assets/fonts/Graphik-Regular.woff2");
+    font-weight: 400;
 }
 
 @font-face {
@@ -29,7 +30,6 @@ body {
     padding: 20px 30px 20px 39px;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
     box-sizing: border-box;
     align-items: center;
 }
@@ -41,7 +41,6 @@ body {
 
 .logo__img {
     width: 186px;
-    height: 58px;
 }
 
 .main-nav__list {
@@ -63,18 +62,21 @@ body {
     letter-spacing: 0.01em;
 }
 
-.main-nav__button {
+.btn {
     box-sizing: border-box;
     background-color: transparent;
-    border: 1px solid #FFFFFFFF;
+    border: 1px solid #FFFFFF;
     box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
     color: #FFFFFF;
-    min-width: 139px;
-    height: 52px;
     font-size: 17px;
-    cursor: pointer;
     line-height: 147%;
     letter-spacing: 0.01em;
+    cursor: pointer;
+}
+
+.main-nav__button {
+    min-width: 139px;
+    height: 52px;
     font-weight: 500;
     padding: 14px 40px;
 }
@@ -119,20 +121,13 @@ body {
 .description__buttons {
     display: flex;
     justify-content: center;
+    margin-bottom: 35px;
 }
 
 .description__btn {
-    box-sizing: border-box;
-    background-color: transparent;
-    border: 1px solid rgb(255, 255, 255);
-    box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
-    color: #FFFFFF;
     min-width: 178px;
     padding: 20px 40px;
     height: 65px;
-    font-size: 17px;
-    line-height: 147%;
-    letter-spacing: 0.01em;
 }
 
 .btn-primary {
@@ -144,27 +139,28 @@ body {
 .interface-image {
     max-width: 1552px;
     max-height: 841px;
-    margin-top: 35px;
+
 }
 
 .description__image {
     position: relative;
     text-align: center;
+    overflow: hidden;
 }
 
-.description__image::before {
+.description__image::after {
     content: "";
     position: absolute;
+    width: 100%;
     left: 0;
-    right: 0;
     top: 67.1%;
     bottom: 0;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0E0E0E 66.15%);
-    z-index: 99;
 }
 
 .features {
     padding: 62px 0;
+    width: 100%;
     margin-bottom: 100px;
 }
 
@@ -175,6 +171,7 @@ body {
     font-weight: 400;
     line-height: 62px;
     margin-bottom: 27px;
+    letter-spacing: 0;
 }
 
 .features__subtitle {
@@ -227,19 +224,19 @@ body {
     margin-right: 13px;
 }
 
-.item-title__spoons::before {
+.item-title--spoons::before {
     width: 26px;
     height: 24px;
     background-image: url('../assets/icons/spoons.svg');
 }
 
-.item-title__alien::before {
+.item-title--alien::before {
     width: 30px;
     height: 30px;
     background-image: url('../assets/icons/alien.svg');
 }
 
-.item-title__infinity::before {
+.item-title--infinity::before {
     width: 42px;
     height: 19px;
     background-image: url('../assets/icons/infinity.svg');

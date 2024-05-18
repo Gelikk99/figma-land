@@ -249,12 +249,12 @@ body {
     max-width: 249px;
 }
 
-.contents {
+.proposals {
     padding: 50px 0;
     margin-bottom: 100px;
 }
 
-.contents__title {
+.proposals__title {
     text-align: center;
     font-size: 52px;
     line-height: 62px;
@@ -263,7 +263,7 @@ body {
     font-weight: 400;
 }
 
-.contents__subtitle {
+.proposals__subtitle {
     font-size: 20px;
     text-align: center;
     max-width: 571px;
@@ -272,14 +272,14 @@ body {
     letter-spacing: 0.2px;
 }
 
-.contents__cards {
+.proposals__cards {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 33px;
 }
 
-.contents__card {
+.proposals__card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -293,15 +293,15 @@ body {
     box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
 }
 
-.contents__card-work {
+.proposals__card-work {
     gap: 57px;
 }
 
-.contents__card-design {
+.proposals__card-design {
     gap: 30px;
 }
 
-.contents__card-title {
+.proposals__card-title {
     color: #000000FF;
     font-size: 20px;
     font-weight: 500;
@@ -311,7 +311,7 @@ body {
     text-align: center;
 }
 
-.contents__card-subtitle {
+.proposals__card-subtitle {
     max-width: 268px;
     color: rgb(92, 92, 92);
     font-size: 16px;
@@ -320,22 +320,22 @@ body {
     text-align: center;
 }
 
-.contents__card-button {
+.proposals__card-button {
     min-width: 157px;
     padding: 16px 36px;
     height: 52px;
     font-weight: 500;
 }
 
-.contents__card-button-try {
+.proposals__card-button-try {
     min-width: 192px;
 }
 
-.contents__card-image-macbook {
+.proposals__card-image-macbook {
     max-width: 405px;
 }
 
-.contents__card-boards {
+.proposals__card-boards {
     max-width: 379px;
 }
 

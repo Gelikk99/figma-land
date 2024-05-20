@@ -21,6 +21,10 @@ body {
     font-family: "Graphik", sans-serif;
 }
 
+h1, h2, h3 {
+    font-weight: 400;
+}
+
 .page-header {
     margin-bottom: 35px;
 }
@@ -73,12 +77,12 @@ body {
     line-height: 147%;
     letter-spacing: 0.01em;
     cursor: pointer;
+    font-weight: 500;
 }
 
 .main-nav__button {
     min-width: 139px;
     height: 52px;
-    font-weight: 500;
     padding: 14px 40px;
 }
 
@@ -171,7 +175,6 @@ body {
     line-height: 62px;
     margin-bottom: 27px;
     letter-spacing: 0.2px;
-    font-weight: 400;
 }
 
 .features__subtitle {
@@ -260,13 +263,12 @@ body {
     line-height: 62px;
     margin-bottom: 20px;
     letter-spacing: 0.2px;
-    font-weight: 400;
 }
 
 .proposals__subtitle {
     font-size: 20px;
     text-align: center;
-    max-width: 571px;
+    max-width: 570px;
     line-height: 30px;
     margin: 0 auto 54px auto;
     letter-spacing: 0.2px;
@@ -283,26 +285,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     list-style: none;
     max-width: 476px;
-    max-height: 625px;
-    padding: 50px 35px 40px 35px;
+    min-height: 625px;
+    padding: 40px 35px;
     background-color: #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0 4px 31px 0 rgba(0, 0, 0, 0.15);
 }
 
-.proposals__card-work {
-    gap: 57px;
-}
-
-.proposals__card-design {
-    gap: 30px;
-}
-
 .proposals__card-title {
-    color: #000000FF;
+    color: #000000;
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
@@ -313,7 +308,7 @@ body {
 
 .proposals__card-subtitle {
     max-width: 268px;
-    color: rgb(92, 92, 92);
+    color: #5C5C5CFF;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.2px;
@@ -324,26 +319,23 @@ body {
     min-width: 157px;
     padding: 16px 36px;
     height: 52px;
-    font-weight: 500;
 }
 
-.proposals__card-button-try {
-    min-width: 192px;
-}
-
-.proposals__card-image-macbook {
-    max-width: 405px;
+.proposals__card-image--macbook {
+    width: 100%;
 }
 
 .proposals__card-boards {
-    max-width: 379px;
+    width: 100%;
 }
 
 
 .gallery {
     padding: 50px 0;
     margin-bottom: 100px;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .gallery__title {
@@ -351,15 +343,15 @@ body {
     line-height: 62px;
     margin-bottom: 20px;
     letter-spacing: 0.2px;
-    font-weight: 400;
 }
 
 .gallery__subtitle {
     font-size: 20px;
     max-width: 571px;
     line-height: 30px;
-    margin: 0 auto 54px auto;
+    margin-bottom: 54px;
     letter-spacing: 0.2px;
+    text-align: center;
 }
 
 .gallery__images {
@@ -368,16 +360,16 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 44px 33px;
-    margin: 0 auto 44px auto;
+    margin-bottom: 44px;
+    list-style: none;
 }
-
 .gallery__image {
     border-radius: 12px;
     height: 285px;
     max-width: 225px;
 }
 
-.gallery__image-big {
+.gallery__image--big {
     max-width: 398px;
 }
 
@@ -385,7 +377,6 @@ body {
     min-width: 159px;
     padding: 14px 40px;
     height: 52px;
-    font-weight: 500;
 }
 
 

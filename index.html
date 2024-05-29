@@ -191,7 +191,7 @@
     <section class="promo">
         <div class="promo__content">
             <div class="promo__content-trial content-trial">
-                <p class="content-trial__title">OpenType features and Variable fonts</p>
+                <h2 class="content-trial__title">OpenType features and Variable fonts</h2>
                 <button class="btn content-trial__btn btn-primary">Try For Free</button>
             </div>
             <img class="promo__content-image" src="assets/images/promo-content/home-page.png"
@@ -232,18 +232,27 @@
                 </ul>
             </nav>
             <div class="footer__contacts contacts">
-                <div class="contacts__data">
-                    <p class="contacts__data-location">7480 Mockingbird Hill undefined</p>
-                    <p class="contacts__data-number">(239) 555-0108</p>
-                </div>
-                <div class="contacts__social-media social-media">
-                    <a href="#" class="social-media__icon"><img src="assets/icons/footer/twitter.svg"
-                                                                alt="Twitter Icon"></a>
-                    <a href="#" class="social-media__icon"><img src="assets/icons/footer/facebook.svg"
-                                                                alt="Facebook Icon"></a>
-                    <a href="#" class="social-media__icon"><img src="assets/icons/footer/linkedin.svg"
-                                                                alt="Linkedin Icon"></a>
-                </div>
+                <address class="contacts__data">
+                    <p class="contacts__location">7480 Mockingbird Hill undefined</p>
+                    <a href=tel:+12395550108" class="contacts__phone">(239) 555-0108</a>
+                </address>
+                <ul class="contacts__social-media social-media">
+                    <li>
+                        <svg class="social-media__icon" width="41" height="42" viewBox="0 0 41 42" fill="none">
+                            <use href="assets/icons/sprite.svg#social-twitter"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg class="social-media__icon" width="42" height="42" viewBox="0 0 42 42" fill="none">
+                            <use href="assets/icons/sprite.svg#social-facebook"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg class="social-media__icon" width="42" height="42" viewBox="0 0 42 42" fill="none">
+                            <use href="assets/icons/sprite.svg#social-linkedin"></use>
+                        </svg>
+                    </li>
+                </ul>
             </div>
         </div>
     </footer>

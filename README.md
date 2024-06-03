@@ -1,7 +1,7 @@
 # Проект: Figma-Land
 Figma-Land - лендинг приложения для планирования и управления временем "Slate".
 
-![figma-land.png](..%2Ffigma-land.png)
+![image](https://github.com/Gelikk99/figma-land/assets/116508034/95de08cf-e77b-4b73-8521-f478141c5a93)
 
 ## Структура проекта
 Проект состоит из следующих файлов и директорий:
